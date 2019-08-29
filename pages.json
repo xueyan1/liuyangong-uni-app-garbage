@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "语音识别"
+			}
+		},
+		{
+			"path": "pages/photo/photo",
+			"style": {
+				"navigationBarTitleText": "拍照识别"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/ar/ar",
+			"style": {
+				"navigationBarTitleText": "AR识别"
+			}
+		}
+	],
+	 "tabBar": {
+	    "color": "#999",
+	    "selectedColor": "#1afa29",
+	    "list": [{
+	      "pagePath": "pages/record/record",
+	      "text": "语音",
+	      "iconPath": "static/classify.png",
+	      "selectedIconPath": "static/classify-s.png"
+	    }, {
+	      "pagePath": "pages/photo/photo",
+	      "text": "拍照",
+	      "iconPath": "static/img.png",
+	      "selectedIconPath": "static/img-s.png"
+	    },
+	    {
+	      "pagePath": "pages/mine/mine",
+	      "text": "我的",
+	      "iconPath": "static/mine.png",
+	      "selectedIconPath": "static/mine-s.png"
+	    }],
+	    "position": "bottom"
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "鎏嫣宫",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

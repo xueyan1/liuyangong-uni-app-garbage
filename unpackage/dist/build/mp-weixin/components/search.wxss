@@ -1,0 +1,118 @@
+
+page {
+	background-color: #fafafa;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.search {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	width: 92%;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 10rpx 30rpx;
+	font-size: 26rpx;
+	border-radius: 10rpx;
+	border: 1rpx solid #eee;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.input {
+	width: 85%;
+	margin-right: 20rpx
+}
+.searchImg {
+	width: 35rpx;
+	height: 35rpx;
+	vertical-align: center;
+}
+.clearImgShow {
+	width: 35rpx;
+	height: 35rpx;
+	vertical-align: center;
+}
+.clearImgHide {
+	display: none;
+}
+.resultview {
+	position: absolute;
+	background-color: white;
+	top: 110rpx;
+	z-index: 2;
+	width: 100%;
+	height: 350rpx;
+	padding: 10rpx 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-animation: pulldown 200ms linear;
+	        animation: pulldown 200ms linear;
+}
+@-webkit-keyframes pulldown {
+0% {
+		-webkit-transform: translateY(-40rpx);
+		        transform: translateY(-40rpx)
+}
+25% {
+		-webkit-transform: translateY(-30rpx);
+		        transform: translateY(-30rpx)
+}
+50% {
+		-webkit-transform: translateY(-20rpx);
+		        transform: translateY(-20rpx)
+}
+75% {
+		-webkit-transform: translateY(-10rpx);
+		        transform: translateY(-10rpx)
+}
+100% {
+		-webkit-transform: translateY(0rpx);
+		        transform: translateY(0rpx)
+}
+}
+@keyframes pulldown {
+0% {
+		-webkit-transform: translateY(-40rpx);
+		        transform: translateY(-40rpx)
+}
+25% {
+		-webkit-transform: translateY(-30rpx);
+		        transform: translateY(-30rpx)
+}
+50% {
+		-webkit-transform: translateY(-20rpx);
+		        transform: translateY(-20rpx)
+}
+75% {
+		-webkit-transform: translateY(-10rpx);
+		        transform: translateY(-10rpx)
+}
+100% {
+		-webkit-transform: translateY(0rpx);
+		        transform: translateY(0rpx)
+}
+}
+.resultitem {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: left;
+	border-bottom: 1rpx #eeeeee solid;
+	color: #666;
+	font-size: 26rpx;
+}
+.resultitem icon {
+	margin-right: 12rpx;
+	text-align: center;
+	height: 24rpx;
+	line-height: 24rpx
+}
+

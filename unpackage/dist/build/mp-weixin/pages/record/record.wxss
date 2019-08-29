@@ -1,0 +1,75 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.imgview {
+	height: 160rpx;
+	width: 160rpx;
+	border-radius: 50%;
+	background-color: #f1f1f1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 20rpx;
+}
+.imgview_text {
+	font-size: 32rpx;
+	color: #999;
+}
+.chooseimg {
+	height: 80rpx;
+	width: 80rpx;
+}
+.title {
+	height: 720rpx;
+	width: 450rpx;
+	font-size: 46rpx;
+	color: #999;
+	line-height: 720rpx;
+	text-align: center;
+}
+.translateText {
+	font-size: 20rpx;
+	color: #aaa;
+	position: fixed;
+	bottom: 240rpx;
+	right: 40rpx;
+}
+.record-wave {
+	height: 60rpx;
+	padding: 20rpx 20rpx;
+	line-height: 60rpx;
+	text-align: center;
+	border-radius: 0 0 8rpx 8rpx;
+}
+.record-wave image {
+	height: 60rpx;
+	margin: 0 40rpx;
+}
+
+page::after{position:fixed;content:'';left:-1000px;top:-1000px;-webkit-animation:shadow-preload .1s;-webkit-animation-delay:3s;animation:shadow-preload .1s;animation-delay:3s}@-webkit-keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}@keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}

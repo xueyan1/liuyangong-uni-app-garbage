@@ -1,0 +1,30 @@
+
+.bottom-block {
+  bottom: 0px;
+  height: 200rpx;
+  width: 100%;
+  position: absolute;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.takePhoto {
+  width: 132rpx;
+  height: 132rpx;
+}
+.canvas{
+  margin:60rpx auto
+}
+

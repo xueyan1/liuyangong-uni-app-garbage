@@ -1,0 +1,73 @@
+
+.head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f1f1;
+  padding: 20rpx 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 40rpx;
+}
+.nickname {
+  margin-left: 30rpx;
+}
+.userinfo {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.concatBtn {
+  color: white;
+  font-size: 32rpx;
+  position: fixed;
+  bottom: 60rpx;
+  right: 30rpx;
+  background-color: green;
+}
+.history-text {
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.history {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+}
+.item {
+  font-size: 34rpx;
+  border: 1rpx solid #eee;
+  padding: 6rpx 12rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  color: #666;
+}
+.nohistory {
+  height: 500rpx;
+  width: 100%;
+  line-height: 500rpx;
+  text-align: center;
+  color: #666;
+}
+
